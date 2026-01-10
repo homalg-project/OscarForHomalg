@@ -12,7 +12,7 @@ clean:
 	(cd doc ; ./clean)
 
 test:	doc
-	jap tst/testall.g
+	gap tst/testall.g
 
 test-tabs:
 	! grep -RP "\t" examples/*.g examples/doc/*.g gap/*.gi gap/*.gd
